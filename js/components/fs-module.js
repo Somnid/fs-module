@@ -15,7 +15,7 @@ customElements.define("fs-module",
 			this.attachShadow({ mode: "open" });
 			this.shadowRoot.innerHTML = `
 				<div>
-					<p>Please click here and select your web root to enabled filesystem modules.</p>
+					<p>Please click here and select your web root to enable file system modules.</p>
 					<button id="enable">Enable</button>
 				</div>
 			`;
